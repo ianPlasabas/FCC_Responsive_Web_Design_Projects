@@ -1,0 +1,143 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>https://survey-form.freecodecamp.rocks/</title>
+    <link rel="stylesheet" href="styles.css"> 
+  </head>
+
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+      <fieldset>
+      <label id="name-label">Name<br>
+      <input id="name" type="text" placeholder="Enter your name" required> </input>
+      </label>
+      </fieldset>
+
+      <fieldset>
+      <label id="email-label">Email<br>
+      <input id="email" type="email" placeholder="Enter your email" required> </input>
+      </label>
+      </fieldset>
+
+      <fieldset>
+        <label id="number-label">Age<br>
+        <input id="number" type="number" min="18" max="150" placeholder="Age" required></input>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <label>Which option best describes your current role?<br>
+        <select id="dropdown">
+          <option value="">Select current role</option>
+          <option value="student">Student</option>
+          <option value="Professional">Professional</option>
+          <option value="other">Other</option>
+        </select>
+        </label>
+      </fieldset>   
+
+      <fieldset>
+        <label>Would you recommend freeCodeCamp to a friend?<br>
+        </fieldset>
+
+        <fieldset>
+        <input name="recommend" type="radio" value="Definitely">Definitely</input>
+        </fieldset>
+
+        <fieldset>
+        <input name="recommend" type="radio" value="Maybe">Maybe</input>
+        </fieldset>
+
+        <fieldset>
+        <input name="recommend" type="radio" value="Not sure">Not sure</input>
+        </label>
+        </fieldset>
+      
+
+      <fieldset>
+        <label>What is your favorite feature of freeCodeCamp?<br>
+      </fieldset>
+
+      <fieldset>
+        <input type="checkbox" value="DAMNBRO">Python</input>
+      </fieldset>
+      
+      <fieldset>
+        <input type="checkbox" value="NAYBRO">Javascript</input>
+        </label>
+      </fieldset>
+      
+
+      <fieldset>
+        <label>Any comments or suggestions?<br>
+        <textarea></textarea>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <input type="submit" id="submit"></input>
+      </fieldset>
+    </form>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body{
+  background-color: rgba(0,0,255, 60%);
+  font-family: 'Poppins';
+  font-size: 20px;
+  color:white;
+}
+h1,p{
+  margin:  25px auto;
+  text-align:center;
+  width:500px;
+  max-width: 500%;
+}
+form{
+  background-color: rgba(20,21,21, 70%);
+  width:75%;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 8px;
+  
+}
+fieldset{
+  border-style: none;
+  border-color:black;
+}
+
+#name, #email, #number,#dropdown{
+  width:100%;
+  height:30px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+input[type="radio"],input[type="checkbox"]{
+  margin:0 6px 0 0;
+}
+
+textarea{
+  width:460px;
+  max-width: 500px;
+  height: 100px;
+}
+
+#submit{
+  width: 100%;
+  margin: auto;
+  height:40px;
+  font-size: 15px;
+  background-color: rgba(0,255,90,62%);
+  color: white;
+}
+
+** end of undefined **
+
